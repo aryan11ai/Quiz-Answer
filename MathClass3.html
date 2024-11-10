@@ -1,0 +1,285 @@
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+    h1 {
+        text-align: center;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    th {
+        background-color: #4CAF50;
+        color: white;
+    }
+    .answer {
+        color: #28a745;
+        font-weight: bold;
+    }
+</style>
+<h1>Math Quiz</h1>
+<table>
+    <tr>
+        <th>Question</th>
+        <th>Choices</th>
+        <th>Answer</th>
+    </tr>
+    <tr>
+        <td>1. What is 5 + 3?</td>
+        <td>6, 7, 8, 9</td>
+        <td class="answer">8</td>
+    </tr>
+    <tr>
+        <td>2. What is 10 - 4?</td>
+        <td>5, 6, 7, 8</td>
+        <td class="answer">6</td>
+    </tr>
+    <tr>
+        <td>3. What is 6 x 2?</td>
+        <td>10, 11, 12, 13</td>
+        <td class="answer">12</td>
+    </tr>
+    <tr>
+        <td>4. What is 15 ÷ 3?</td>
+        <td>4, 5, 6, 7</td>
+        <td class="answer">5</td>
+    </tr>
+    <tr>
+        <td>5. What is the value of 9 - 3 + 2?</td>
+        <td>6, 7, 8, 9</td>
+        <td class="answer">8</td>
+    </tr>
+    <tr>
+        <td>6. What is 8 + 6?</td>
+        <td>12, 13, 14, 15</td>
+        <td class="answer">14</td>
+    </tr>
+    <tr>
+        <td>7. What is 3 x 3?</td>
+        <td>6, 7, 8, 9</td>
+        <td class="answer">9</td>
+    </tr>
+    <tr>
+        <td>8. How many sides does a triangle have?</td>
+        <td>2, 3, 4, 5</td>
+        <td class="answer">3</td>
+    </tr>
+    <tr>
+        <td>9. What is the next number in the series: 2, 4, 6, ___?</td>
+        <td>7, 8, 9, 10</td>
+        <td class="answer">8</td>
+    </tr>
+    <tr>
+        <td>10. What is 7 + 8?</td>
+        <td>14, 15, 16, 17</td>
+        <td class="answer">15</td>
+    </tr>
+    <tr>
+        <td>11. What is the perimeter of a square with side length 4 cm?</td>
+        <td>8 cm, 12 cm, 16 cm, 20 cm</td>
+        <td class="answer">16 cm</td>
+    </tr>
+    <tr>
+        <td>12. What is 5 x 0?</td>
+        <td>0, 1, 5, 10</td>
+        <td class="answer">0</td>
+    </tr>
+    <tr>
+        <td>13. What is 20 ÷ 4?</td>
+        <td>4, 5, 6, 7</td>
+        <td class="answer">5</td>
+    </tr>
+    <tr>
+        <td>14. What is 12 - 7?</td>
+        <td>3, 4, 5, 6</td>
+        <td class="answer">5</td>
+    </tr>
+    <tr>
+        <td>15. How many months are there in a year?</td>
+        <td>10, 11, 12, 13</td>
+        <td class="answer">12</td>
+    </tr>
+    <tr>
+        <td>16. What is 9 + 10?</td>
+        <td>18, 19, 20, 21</td>
+        <td class="answer">19</td>
+    </tr>
+    <tr>
+        <td>17. What is half of 8?</td>
+        <td>2, 3, 4, 5</td>
+        <td class="answer">4</td>
+    </tr>
+    <tr>
+        <td>18. What is 6 - 2?</td>
+        <td>2, 3, 4, 5</td>
+        <td class="answer">4</td>
+    </tr>
+    <tr>
+        <td>19. How many days are there in a week?</td>
+        <td>5, 6, 7, 8</td>
+        <td class="answer">7</td>
+    </tr>
+    <tr>
+        <td>20. What is the value of 5 + 5 - 3?</td>
+        <td>5, 6, 7, 8</td>
+        <td class="answer">7</td>
+    </tr>
+    <tr>
+        <td>21. What is the product of 4 and 5?</td>
+        <td>18, 20, 22, 24</td>
+        <td class="answer">20</td>
+    </tr>
+    <tr>
+        <td>22. What is the sum of the angles in a triangle?</td>
+        <td>180 degrees, 90 degrees, 360 degrees, 270 degrees</td>
+        <td class="answer">180 degrees</td>
+    </tr>
+    <tr>
+        <td>23. What is 3 + 7?</td>
+        <td>8, 9, 10, 11</td>
+        <td class="answer">10</td>
+    </tr>
+    <tr>
+        <td>24. What is 8 - 5?</td>
+        <td>2, 3, 4, 5</td>
+        <td class="answer">3</td>
+    </tr>
+    <tr>
+        <td>25. What is the time on a clock if the hour hand is on 3 and the minute hand is on 12?</td>
+        <td>3:00, 3:30, 3:15, 3:45</td>
+        <td class="answer">3:00</td>
+    </tr>
+    <tr>
+        <td>26. What is 7 x 6?</td>
+        <td>36, 42, 48, 54</td>
+        <td class="answer">42</td>
+    </tr>
+    <tr>
+        <td>27. How many zeroes are in 1000?</td>
+        <td>1, 2, 3, 4</td>
+        <td class="answer">3</td>
+    </tr>
+    <tr>
+        <td>28. What is the smallest two-digit number?</td>
+        <td>10, 11, 12, 9</td>
+        <td class="answer">10</td>
+    </tr>
+    <tr>
+        <td>29. What is 5 + 6?</td>
+        <td>10, 11, 12, 13</td>
+        <td class="answer">11</td>
+    </tr>
+    <tr>
+        <td>30. What is the difference between 15 and 9?</td>
+        <td>4, 5, 6, 7</td>
+        <td class="answer">6</td>
+    </tr>
+    <tr>
+        <td>31. How many sides does a hexagon have?</td>
+        <td>4, 5, 6, 7</td>
+        <td class="answer">6</td>
+    </tr>
+    <tr>
+        <td>32. What is the result of 8 ÷ 2?</td>
+        <td>2, 3, 4, 5</td>
+        <td class="answer">4</td>
+    </tr>
+    <tr>
+        <td>33. What is the value of 1 + 1 + 1?</td>
+        <td>2, 3, 4, 5</td>
+        <td class="answer">3</td>
+    </tr>
+    <tr>
+        <td>34. What is 9 - 4?</td>
+        <td>3, 4, 5, 6</td>
+        <td class="answer">5</td>
+    </tr>
+    <tr>
+        <td>35. How many fingers do we have on one hand?</td>
+        <td>4, 5, 6, 7</td>
+        <td class="answer">5</td>
+    </tr>
+    <tr>
+        <td>36. What is the value of 10 - 3?</td>
+        <td>6, 7, 8, 9</td>
+        <td class="answer">7</td>
+    </tr>
+    <tr>
+        <td>37. What is 3 x 4?</td>
+        <td>10, 11, 12, 13</td>
+        <td class="answer">12</td>
+    </tr>
+    <tr>
+        <td>38. How many wheels does a bicycle have?</td>
+        <td>2, 3, 4, 5</td>
+        <td class="answer">2</td>
+    </tr>
+    <tr>
+        <td>39. What is the value of 10 + 5?</td>
+        <td>14, 15, 16, 17</td>
+        <td class="answer">15</td>
+    </tr>
+    <tr>
+        <td>40. What is the smallest odd number?</td>
+        <td>0, 1, 2, 3</td>
+        <td class="answer">1</td>
+    </tr>
+    <tr>
+        <td>41. What is the value of 6 + 2?</td>
+        <td>7, 8, 9, 10</td>
+        <td class="answer">8</td>
+    </tr>
+    <tr>
+        <td>42. What is the sum of 4, 5, and 6?</td>
+        <td>14, 15, 16, 17</td>
+        <td class="answer">15</td>
+    </tr>
+    <tr>
+        <td>43. What is 5 x 3?</td>
+        <td>10, 12, 15, 18</td>
+        <td class="answer">15</td>
+    </tr>
+    <tr>
+        <td>44. What is the largest single-digit number?</td>
+        <td>7, 8, 9, 10</td>
+        <td class="answer">9</td>
+    </tr>
+    <tr>
+        <td>45. How many edges does a cube have?</td>
+        <td>6, 8, 10, 12</td>
+        <td class="answer">12</td>
+    </tr>
+    <tr>
+        <td>46. What is 10 ÷ 2?</td>
+        <td>2, 3, 4, 5</td>
+        <td class="answer">5</td>
+    </tr>
+    <tr>
+        <td>47. What is the value of 2 + 3 + 4?</td>
+        <td>7, 8, 9, 10</td>
+        <td class="answer">9</td>
+    </tr>
+    <tr>
+        <td>48. What is the result of 1 x 10?</td>
+        <td>1, 10, 100, 1000</td>
+        <td class="answer">10</td>
+    </tr>
+    <tr>
+        <td>49. What is 14 - 6?</td>
+        <td>6, 7, 8, 9</td>
+        <td class="answer">8</td>
+    </tr>
+    <tr>
+        <td>50. What is 2 x 5?</td>
+        <td>8, 9, 10, 11</td>
+        <td class="answer">10</td>
+    </tr>
+</table>

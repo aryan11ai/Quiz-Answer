@@ -1,0 +1,287 @@
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+    h1 {
+        text-align: center;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    th {
+        background-color: #4CAF50;
+        color: white;
+    }
+    .answer {
+        color: #28a745;
+        font-weight: bold;
+    }
+</style>
+
+<h1>Math Quiz</h1>
+
+<table>
+    <tr>
+        <th>Question</th>
+        <th>Choices</th>
+        <th>Answer</th>
+    </tr>
+    <tr>
+        <td>1. What is the sum of 250 + 75?</td>
+        <td>325, 350, 300, 275</td>
+        <td class="answer">325</td>
+    </tr>
+    <tr>
+        <td>2. Which of the following is a prime number?</td>
+        <td>12, 15, 17, 20</td>
+        <td class="answer">17</td>
+    </tr>
+    <tr>
+        <td>3. What is 45 divided by 5?</td>
+        <td>9, 8, 7, 10</td>
+        <td class="answer">9</td>
+    </tr>
+    <tr>
+        <td>4. What is the place value of 5 in 5,634?</td>
+        <td>5, 500, 5000, 50</td>
+        <td class="answer">5000</td>
+    </tr>
+    <tr>
+        <td>5. What is the value of 7 × 8?</td>
+        <td>56, 54, 63, 48</td>
+        <td class="answer">56</td>
+    </tr>
+    <tr>
+        <td>6. What is the greatest common divisor of 18 and 24?</td>
+        <td>6, 12, 3, 9</td>
+        <td class="answer">6</td>
+    </tr>
+    <tr>
+        <td>7. How many sides does a pentagon have?</td>
+        <td>4, 5, 6, 7</td>
+        <td class="answer">5</td>
+    </tr>
+    <tr>
+        <td>8. Which number is a factor of 36?</td>
+        <td>5, 6, 7, 9</td>
+        <td class="answer">6</td>
+    </tr>
+    <tr>
+        <td>9. What is the square of 9?</td>
+        <td>18, 81, 27, 45</td>
+        <td class="answer">81</td>
+    </tr>
+    <tr>
+        <td>10. What is the smallest even number?</td>
+        <td>0, 1, 2, 4</td>
+        <td class="answer">0</td>
+    </tr>
+    <tr>
+        <td>11. How many degrees are in a right angle?</td>
+        <td>45, 90, 180, 360</td>
+        <td class="answer">90</td>
+    </tr>
+    <tr>
+        <td>12. What is the product of 12 and 11?</td>
+        <td>120, 132, 144, 110</td>
+        <td class="answer">132</td>
+    </tr>
+    <tr>
+        <td>13. How many faces does a cube have?</td>
+        <td>4, 6, 8, 12</td>
+        <td class="answer">6</td>
+    </tr>
+    <tr>
+        <td>14. What is 25% of 200?</td>
+        <td>25, 50, 75, 100</td>
+        <td class="answer">50</td>
+    </tr>
+    <tr>
+        <td>15. Which number is neither positive nor negative?</td>
+        <td>1, -1, 0, 10</td>
+        <td class="answer">0</td>
+    </tr>
+    <tr>
+        <td>16. What is the least common multiple (LCM) of 4 and 6?</td>
+        <td>6, 12, 18, 24</td>
+        <td class="answer">12</td>
+    </tr>
+    <tr>
+        <td>17. What is 3/4 of 100?</td>
+        <td>50, 75, 100, 25</td>
+        <td class="answer">75</td>
+    </tr>
+    <tr>
+        <td>18. Which fraction is equivalent to 0.5?</td>
+        <td>1/2, 1/3, 2/3, 3/4</td>
+        <td class="answer">1/2</td>
+    </tr>
+    <tr>
+        <td>19. How many centimeters are in a meter?</td>
+        <td>10, 100, 1000, 10000</td>
+        <td class="answer">100</td>
+    </tr>
+    <tr>
+        <td>20. What is the perimeter of a rectangle with length 8 cm and width 6 cm?</td>
+        <td>28 cm, 26 cm, 24 cm, 30 cm</td>
+        <td class="answer">28 cm</td>
+    </tr>
+    <tr>
+        <td>21. If you add up the angles of a triangle, what is the total?</td>
+        <td>90°, 180°, 270°, 360°</td>
+        <td class="answer">180°</td>
+    </tr>
+    <tr>
+        <td>22. Which is the largest: 0.8, 0.88, 0.9, or 0.85?</td>
+        <td>0.8, 0.88, 0.9, 0.85</td>
+        <td class="answer">0.9</td>
+    </tr>
+    <tr>
+        <td>23. What is 3 cubed?</td>
+        <td>6, 9, 12, 27</td>
+        <td class="answer">27</td>
+    </tr>
+    <tr>
+        <td>24. How many millimeters are there in a centimeter?</td>
+        <td>1, 10, 100, 1000</td>
+        <td class="answer">10</td>
+    </tr>
+    <tr>
+        <td>25. What is the value of π (pi) approximately?</td>
+        <td>2, 3.14, 4, 5</td>
+        <td class="answer">3.14</td>
+    </tr>
+    <tr>
+        <td>26. How many minutes are in an hour?</td>
+        <td>30, 45, 50, 60</td>
+        <td class="answer">60</td>
+    </tr>
+    <tr>
+        <td>27. Which of these is an odd number?</td>
+        <td>18, 22, 31, 42</td>
+        <td class="answer">31</td>
+    </tr>
+    <tr>
+        <td>28. What is the decimal form of 3/5?</td>
+        <td>0.5, 0.6, 0.7, 0.8</td>
+        <td class="answer">0.6</td>
+    </tr>
+    <tr>
+        <td>29. If a=4 and b=5, what is a + b?</td>
+        <td>5, 8, 9, 10</td>
+        <td class="answer">9</td>
+    </tr>
+    <tr>
+        <td>30. Which of the following has only one line of symmetry?</td>
+        <td>Square, Circle, Rectangle, Triangle</td>
+        <td class="answer">Rectangle</td>
+    </tr>
+    <tr>
+        <td>31. What is the value of 7 - (-3)?</td>
+        <td>4, 7, 10, 12</td>
+        <td class="answer">10</td>
+    </tr>
+    <tr>
+        <td>32. What is 20% of 200?</td>
+        <td>20, 40, 50, 80</td>
+        <td class="answer">40</td>
+    </tr>
+    <tr>
+        <td>33. How many milliliters are in a liter?</td>
+        <td>10, 100, 500, 1000</td>
+        <td class="answer">1000</td>
+    </tr>
+    <tr>
+        <td>34. How many zeros are there in one million?</td>
+        <td>5, 6, 7, 8</td>
+        <td class="answer">6</td>
+    </tr>
+    <tr>
+        <td>35. What is 0.75 as a fraction?</td>
+        <td>1/2, 2/3, 3/4, 4/5</td>
+        <td class="answer">3/4</td>
+    </tr>
+    <tr>
+        <td>36. What is the area of a rectangle with length 10 cm and width 4 cm?</td>
+        <td>20 cm², 30 cm², 40 cm², 50 cm²</td>
+        <td class="answer">40 cm²</td>
+    </tr>
+    <tr>
+        <td>37. What do you get if you multiply a number by zero?</td>
+        <td>Zero, The number itself, One, Infinity</td>
+        <td class="answer">Zero</td>
+    </tr>
+    <tr>
+        <td>38. How many grams are in a kilogram?</td>
+        <td>100, 500, 1000, 1500</td>
+        <td class="answer">1000</td>
+    </tr>
+    <tr>
+        <td>39. Which of these fractions is smallest?</td>
+        <td>1/2, 1/3, 1/4, 1/5</td>
+        <td class="answer">1/5</td>
+    </tr>
+    <tr>
+        <td>40. What is the perimeter of a square with side length 6 cm?</td>
+        <td>12 cm, 18 cm, 24 cm, 36 cm</td>
+        <td class="answer">24 cm</td>
+    </tr>
+    <tr>
+        <td>41. If you divide a number by itself, what is the result?</td>
+        <td>1, 0, The number itself, Infinity</td>
+        <td class="answer">1</td>
+    </tr>
+    <tr>
+        <td>42. What is the value of 6 × 7?</td>
+        <td>36, 42, 48, 54</td>
+        <td class="answer">42</td>
+    </tr>
+    <tr>
+        <td>43. Which number is greater: -3 or -7?</td>
+        <td>-3, -7, They are equal, None</td>
+        <td class="answer">-3</td>
+    </tr>
+    <tr>
+        <td>44. How many halves make up a whole?</td>
+        <td>1, 2, 3, 4</td>
+        <td class="answer">2</td>
+    </tr>
+    <tr>
+        <td>45. What is the perimeter of a triangle with sides 5 cm, 7 cm, and 10 cm?</td>
+        <td>12 cm, 18 cm, 22 cm, 28 cm</td>
+        <td class="answer">22 cm</td>
+    </tr>
+    <tr>
+        <td>46. What is the reciprocal of 5?</td>
+        <td>1/5, 5, 10, 2</td>
+        <td class="answer">1/5</td>
+    </tr>
+    <tr>
+        <td>47. What is the sum of the first five positive even numbers?</td>
+        <td>20, 25, 30, 40</td>
+        <td class="answer">30</td>
+    </tr>
+    <tr>
+        <td>48. If 4 × n = 20, what is the value of n?</td>
+        <td>4, 5, 10, 15</td>
+        <td class="answer">5</td>
+    </tr>
+    <tr>
+        <td>49. How many edges does a cube have?</td>
+        <td>4, 8, 12, 16</td>
+        <td class="answer">12</td>
+    </tr>
+    <tr>
+        <td>50. Which of the following is a composite number?</td>
+        <td>3, 5, 7, 9</td>
+        <td class="answer">9</td>
+    </tr>
+</table>

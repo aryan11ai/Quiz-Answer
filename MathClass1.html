@@ -1,0 +1,335 @@
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+    h1 {
+        text-align: center;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+    }
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    th {
+        background-color: #4CAF50;
+        color: white;
+    }
+    .answer {
+        color: #28a745;
+        font-weight: bold;
+    }
+</style>
+<table border="1">
+    <tr>
+        <th>Question No.</th>
+        <th>Question</th>
+        <th>Choices</th>
+        <th>Answer</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>What is 2 + 2?</td>
+        <td>3, 4, 5, 6</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>What is 5 - 3?</td>
+        <td>1, 2, 3, 4</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>3</td>
+        <td>Which number comes after 6?</td>
+        <td>5, 6, 7, 8</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>4</td>
+        <td>What is 3 + 5?</td>
+        <td>5, 6, 7, 8</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>5</td>
+        <td>What shape has three sides?</td>
+        <td>Square, Triangle, Circle, Rectangle</td>
+        <td>Triangle</td>
+    </tr>
+    <tr>
+        <td>6</td>
+        <td>What is 10 - 4?</td>
+        <td>5, 6, 7, 8</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>7</td>
+        <td>What is the sum of 1 and 9?</td>
+        <td>8, 9, 10, 11</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>8</td>
+        <td>How many fingers do we have on one hand?</td>
+        <td>4, 5, 6, 7</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>9</td>
+        <td>What is 2 + 7?</td>
+        <td>8, 9, 10, 11</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>10</td>
+        <td>What shape is a ball?</td>
+        <td>Square, Triangle, Circle, Rectangle</td>
+        <td>Circle</td>
+    </tr>
+    <tr>
+        <td>11</td>
+        <td>What is 6 + 3?</td>
+        <td>8, 9, 10, 11</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>12</td>
+        <td>Which number is greater: 4 or 2?</td>
+        <td>4, 2, Both are equal, None of these</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>13</td>
+        <td>What is 7 - 2?</td>
+        <td>4, 5, 6, 3</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>14</td>
+        <td>What is the value of 5 + 5?</td>
+        <td>8, 9, 10, 11</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>15</td>
+        <td>How many days are there in a week?</td>
+        <td>5, 6, 7, 8</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>16</td>
+        <td>What number is missing? 1, 2, __, 4</td>
+        <td>3, 5, 6, 7</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>17</td>
+        <td>What is 3 + 3?</td>
+        <td>5, 6, 7, 8</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>18</td>
+        <td>What is 8 - 5?</td>
+        <td>1, 2, 3, 4</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>19</td>
+        <td>What shape has four equal sides?</td>
+        <td>Triangle, Circle, Square, Rectangle</td>
+        <td>Square</td>
+    </tr>
+    <tr>
+        <td>20</td>
+        <td>What is the sum of 4 and 6?</td>
+        <td>9, 10, 11, 12</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>21</td>
+        <td>What is 10 - 7?</td>
+        <td>2, 3, 4, 5</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>22</td>
+        <td>Which number comes before 5?</td>
+        <td>4, 6, 3, 7</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>23</td>
+        <td>What is 1 + 1?</td>
+        <td>1, 2, 3, 4</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>24</td>
+        <td>How many sides does a rectangle have?</td>
+        <td>2, 3, 4, 5</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>25</td>
+        <td>What is 4 + 4?</td>
+        <td>6, 7, 8, 9</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>26</td>
+        <td>What is 9 - 3?</td>
+        <td>5, 6, 7, 8</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>27</td>
+        <td>What do you call a shape with no sides?</td>
+        <td>Triangle, Square, Circle, Rectangle</td>
+        <td>Circle</td>
+    </tr>
+    <tr>
+        <td>28</td>
+        <td>How many months are there in a year?</td>
+        <td>10, 11, 12, 13</td>
+        <td>12</td>
+    </tr>
+    <tr>
+        <td>29</td>
+        <td>What is 5 + 2?</td>
+        <td>6, 7, 8, 9</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>30</td>
+        <td>What is 3 - 1?</td>
+        <td>1, 2, 3, 4</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>31</td>
+        <td>How many legs do most spiders have?</td>
+        <td>6, 7, 8, 9</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>32</td>
+        <td>What is 2 + 3?</td>
+        <td>4, 5, 6, 7</td>
+        <td>5</td>
+    </tr>
+    <tr>
+        <td>33</td>
+        <td>What is the next number in the sequence? 2, 4, 6, __</td>
+        <td>7, 8, 9, 10</td>
+        <td>8</td>
+    </tr>
+    <tr>
+        <td>34</td>
+        <td>How many quarters are in a dollar?</td>
+        <td>1, 2, 3, 4</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>35</td>
+        <td>What is the result of 5 + 5?</td>
+        <td>8, 9, 10, 11</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>36</td>
+        <td>What is 7 - 4?</td>
+        <td>2, 3, 4, 5</td>
+        <td>3</td>
+    </tr>
+    <tr>
+        <td>37</td>
+        <td>What is the value of 1 + 0?</td>
+        <td>0, 1, 2, 3</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>38</td>
+        <td>How many eyes does a person have?</td>
+        <td>1, 2, 3, 4</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>39</td>
+        <td>What is 6 + 4?</td>
+        <td>8, 9, 10, 11</td>
+        <td>10</td>
+    </tr>
+    <tr>
+        <td>40</td>
+        <td>What is the result of 3 + 1?</td>
+        <td>3, 4, 5, 6</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>41</td>
+        <td>What is 2 - 1?</td>
+        <td>0, 1, 2, 3</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td>42</td>
+        <td>How many zeros are in one hundred?</td>
+        <td>1, 2, 3, 4</td>
+        <td>2</td>
+    </tr>
+    <tr>
+        <td>43</td>
+        <td>What is the sum of 1 and 8?</td>
+        <td>8, 9, 10, 11</td>
+        <td>9</td>
+    </tr>
+    <tr>
+        <td>44</td>
+        <td>What is 5 - 1?</td>
+        <td>3, 4, 5, 6</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>45</td>
+        <td>How many seconds are in a minute?</td>
+        <td>30, 60, 90, 120</td>
+        <td>60</td>
+    </tr>
+    <tr>
+        <td>46</td>
+        <td>What is 4 + 2?</td>
+        <td>5, 6, 7, 8</td>
+        <td>6</td>
+    </tr>
+    <tr>
+        <td>47</td>
+        <td>What do you get when you add 0 to a number?</td>
+        <td>The same number, One, Two, Three</td>
+        <td>The same number</td>
+    </tr>
+    <tr>
+        <td>48</td>
+        <td>What is the next number in this sequence? 1, 3, 5, __</td>
+        <td>4, 6, 7, 8</td>
+        <td>7</td>
+    </tr>
+    <tr>
+        <td>49</td>
+        <td>What is 10 - 6?</td>
+        <td>2, 3, 4, 5</td>
+        <td>4</td>
+    </tr>
+    <tr>
+        <td>50</td>
+        <td>What is 8 + 2?</td>
+        <td>8, 9, 10, 11</td>
+        <td>10</td>
+    </tr>
+</table>

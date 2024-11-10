@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .answer {
+            color: #28a745;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Quiz Questions</h1>
+    <table>
+        <tr>
+            <th>Question</th>
+            <th>Choices</th>
+            <th>Answer</th>
+        </tr>
+        <tr>
+            <td>1. What is the largest organ in the human body?</td>
+            <td>Heart, Liver, Skin, Lungs</td>
+            <td class="answer">Skin</td>
+        </tr>
+        <tr>
+            <td>2. What do plants need to grow?</td>
+            <td>Rocks, Water, Plastic, Books</td>
+            <td class="answer">Water</td>
+        </tr>
+        <tr>
+            <td>3. What color is the sky on a clear day?</td>
+            <td>Red, Blue, Green, Yellow</td>
+            <td class="answer">Blue</td>
+        </tr>
+        <tr>
+            <td>4. Name one animal that can fly.</td>
+            <td>Dog, Fish, Bird, Cat</td>
+            <td class="answer">Bird</td>
+        </tr>
+        <tr>
+            <td>5. What do we call water when it is frozen?</td>
+            <td>Juice, Ice, Steam, Snow</td>
+            <td class="answer">Ice</td>
+        </tr>
+        <tr>
+            <td>6. What do bees make?</td>
+            <td>Milk, Honey, Bread, Jam</td>
+            <td class="answer">Honey</td>
+        </tr>
+        <tr>
+            <td>7. How many legs does a spider have?</td>
+            <td>Four, Six, Eight, Ten</td>
+            <td class="answer">Eight</td>
+        </tr>
+        <tr>
+            <td>8. What do we breathe in to stay alive?</td>
+            <td>Water, Food, Air, Light</td>
+            <td class="answer">Air</td>
+        </tr>
+        <tr>
+            <td>9. Name a fruit that is yellow.</td>
+            <td>Apple, Banana, Grape, Orange</td>
+            <td class="answer">Banana</td>
+        </tr>
+        <tr>
+            <td>10. What part of the plant is green and helps it make food?</td>
+            <td>Root, Flower, Stem, Leaf</td>
+            <td class="answer">Leaf</td>
+        </tr>
+        <tr>
+            <td>11. What do we call a baby cat?</td>
+            <td>Puppy, Kitten, Calf, Chick</td>
+            <td class="answer">Kitten</td>
+        </tr>
+        <tr>
+            <td>12. Why do we need to drink water?</td>
+            <td>To eat, To grow, To sleep, To breathe</td>
+            <td class="answer">To grow</td>
+        </tr>
+        <tr>
+            <td>13. How do birds help flowers?</td>
+            <td>They eat them, They carry seeds, They scare insects, They drink nectar</td>
+            <td class="answer">They carry seeds</td>
+        </tr>
+        <tr>
+            <td>14. What happens to leaves in the fall?</td>
+            <td>They turn red, They grow, They bloom, They stay green</td>
+            <td class="answer">They turn red</td>
+        </tr>
+        <tr>
+            <td>15. Can you name two things that are alive and two that are not?</td>
+            <td>Plants and rocks, Animals and trees, Clouds and cars, Fish and paper</td>
+            <td class="answer">Animals and trees</td>
+        </tr>
+        <tr>
+            <td>16. Why do we wear sunscreen?</td>
+            <td>To smell nice, To protect our skin, To stay cool, To look good</td>
+            <td class="answer">To protect our skin</td>
+        </tr>
+        <tr>
+            <td>17. How does the sun help plants?</td>
+            <td>It gives them water, It helps them grow, It makes them colorful, It makes them smell good</td>
+            <td class="answer">It helps them grow</td>
+        </tr>
+        <tr>
+            <td>18. What happens when you mix water and sand?</td>
+            <td>They disappear, They make mud, They float, They become dry</td>
+            <td class="answer">They make mud</td>
+        </tr>
+        <tr>
+            <td>19. Why do some animals hibernate in winter?</td>
+            <td>To sleep longer, To find food, To stay warm, To have babies</td>
+            <td class="answer">To stay warm</td>
+        </tr>
+        <tr>
+            <td>20. How do we know that something is alive?</td>
+            <td>It moves, It is colorful, It is big, It has a shape</td>
+            <td class="answer">It moves</td>
+        </tr>
+        <tr>
+            <td>21. What do you think would happen if there were no plants on Earth?</td>
+            <td>It would be cold, Animals would have no food, The sky would be blue, People would be happy</td>
+            <td class="answer">Animals would have no food</td>
+        </tr>
+        <tr>
+            <td>22. How can we protect the environment?</td>
+            <td>By littering, By recycling, By using plastic, By cutting down trees</td>
+            <td class="answer">By recycling</td>
+        </tr>
+        <tr>
+            <td>23. Why do you think some animals live in water and others on land?</td>
+            <td>They like different foods, They can fly, They have different homes, They need different temperatures</td>
+            <td class="answer">They need different temperatures</td>
+        </tr>
+        <tr>
+            <td>24. What do you think makes a good pet?</td>
+            <td>A loud pet, A friendly pet, A pet that eats a lot, A pet that runs away</td>
+            <td class="answer">A friendly pet</td>
+        </tr>
+        <tr>
+            <td>25. How do you think a caterpillar changes into a butterfly?</td>
+            <td>By eating a lot, By sleeping, By going into a cocoon, By flying</td>
+            <td class="answer">By going into a cocoon</td>
+        </tr>
+        <tr>
+            <td>26. Why do you think it’s important to take care of animals?</td>
+            <td>They are funny, They help us, They are noisy, They can fly</td>
+            <td class="answer">They help us</td>
+        </tr>
+        <tr>
+            <td>27. Can you think of ways to save water at home?</td>
+            <td>Leave the tap running, Take shorter showers, Water the plants a lot, Fill the bathtub</td>
+            <td class="answer">Take shorter showers</td>
+        </tr>
+        <tr>
+            <td>28. What would happen if it rained every day?</td>
+            <td>The sun would shine, Plants would grow faster, Animals would fly, The ground would flood</td>
+            <td class="answer">The ground would flood</td>
+        </tr>
+        <tr>
+            <td>29. How do you feel when you see pollution in nature?</td>
+            <td>Happy, Sad, Excited, Confused</td>
+            <td class="answer">Sad</td>
+        </tr>
+        <tr>
+            <td>30. Why is it important to wash your hands?</td>
+            <td>To look pretty, To keep clean, To feel cold, To eat food</td>
+            <td class="answer">To keep clean</td>
+        </tr>
+        <tr>
+            <td>31. Imagine you could invent a new animal. What would it be like?</td>
+            <td>A flying fish, A walking tree, A swimming cat, A singing dog</td>
+            <td class="answer">A flying fish</td>
+        </tr>
+        <tr>
+            <td>32. If you could choose one animal to be your friend, which one would you choose and why?</td>
+            <td>A lion, A turtle, A rabbit, A dinosaur</td>
+            <td class="answer">A rabbit</td>
+        </tr>
+        <tr>
+            <td>33. How would you describe your favorite season and why you like it?</td>
+            <td>Winter because of snow, Summer because of heat, Spring because of flowers, Fall because of leaves</td>
+            <td class="answer">Spring because of flowers</td>
+        </tr>
+        <tr>
+            <td>34. What would you do if you found a baby bird on the ground?</td>
+            <td>Leave it there, Take it home, Call for help, Ignore it</td>
+            <td class="answer">Call for help</td>
+        </tr>
+        <tr>
+            <td>35. How can you tell if a food is healthy or not?</td>
+            <td>If it looks colorful, If it is in a box, If it tastes good, If it is expensive</td>
+            <td class="answer">If it looks colorful</td>
+        </tr>
+        <tr>
+            <td>36. What would happen if everyone planted a tree?</td>
+            <td>It would rain, There would be more air, Animals would leave, People would be tired</td>
+            <td class="answer">There would be more air</td>
+        </tr>
+        <tr>
+            <td>37. How do you think different animals adapt to their environment?</td>
+            <td>By wearing clothes, By changing colors, By flying high, By eating food</td>
+            <td class="answer">By changing colors</td>
+        </tr>
+        <tr>
+            <td>38. What can you do to help keep your classroom clean?</td>
+            <td>Throw trash on the floor, Help pick up litter, Break things, Hide your things</td>
+            <td class="answer">Help pick up litter</td>
+        </tr>
+        <tr>
+            <td>39. If you could ask a scientist one question, what would it be?</td>
+            <td>Why is the sky blue?, What is your favorite food?, Do you like pets?, How tall are you?</td>
+            <td class="answer">Why is the sky blue?</td>
+        </tr>
+        <tr>
+            <td>40. What do you think is the most important thing to remember about taking care of our planet?</td>
+            <td>To keep it dirty, To keep it clean, To ignore it, To use plastic</td>
+            <td class="answer">To keep it clean</td>
+        </tr>
+        <tr>
+            <td>41. Why do you think people should recycle?</td>
+            <td>To help the planet, To make money, To create more trash, To throw things away</td>
+            <td class="answer">To help the planet</td>
+        </tr>
+        <tr>
+            <td>42. How do you think animals find food?</td>
+            <td>By asking humans, By searching around, By sleeping, By sitting still</td>
+            <td class="answer">By searching around</td>
+        </tr>
+        <tr>
+            <td>43. What are some ways we can use less plastic?</td>
+            <td>By using plastic bags, By using reusable bags, By buying more toys, By ignoring plastic</td>
+            <td class="answer">By using reusable bags</td>
+        </tr>
+        <tr>
+            <td>44. If you were a scientist for a day, what would you want to study?</td>
+            <td>Animals, Plants, The ocean, Space</td>
+            <td class="answer">Animals</td>
+        </tr>
+        <tr>
+            <td>45. What is your favorite way to enjoy nature?</td>
+            <td>By watching TV, By playing outside, By staying indoors, By sleeping</td>
+            <td class="answer">By playing outside</td>
+        </tr>
+        <tr>
+            <td>46. How do you think the weather affects our daily lives?</td>
+            <td>It doesn't matter, It makes us happy, It helps us decide what to wear, It makes us tired</td>
+            <td class="answer">It helps us decide what to wear</td>
+        </tr>
+        <tr>
+            <td>47. What do you think would happen if there were no insects?</td>
+            <td>Flowers would bloom, Plants would die, Animals would be happy, It would be colder</td>
+            <td class="answer">Plants would die</td>
+        </tr>
+        <tr>
+            <td>48. How can families work together to help the environment?</td>
+            <td>By littering together, By cleaning up parks, By wasting water, By ignoring pollution</td>
+            <td class="answer">By cleaning up parks</td>
+        </tr>
+        <tr>
+            <td>49. What makes you curious about the world around you?</td>
+            <td>Colors and sounds, Homework, Video games, Movies</td>
+            <td class="answer">Colors and sounds</td>
+        </tr>
+        <tr>
+            <td>50. If you could change one thing about nature, what would it be and why?</td>
+            <td>To make more animals, To make it rain all the time, To have no plants, To make everything plastic</td>
+            <td class="answer">To make more animals</td>
+        </tr>
+    </table>
+</body>
+</html>
